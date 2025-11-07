@@ -1,4 +1,4 @@
-:root{
+   :root{
   --bg: #f4f4f6;
   --ink: #121212;
   --muted: #6f6f78;
@@ -17,6 +17,7 @@
   
 
 * { box-sizing: border-box; }
+
 html, body { height: 100%; }
 
 
@@ -36,16 +37,19 @@ body {
   margin: 0;
     color: var(--ink);
   background: var(--bg);
-  padding: 0;
+  padding: 24px;
   width: 100%;
 }
 
  .wrap {
   max-width: 1200px;
-  /* max-height: auto; */
+
   margin: 0 auto;
-  /* padding: clamp(16px, 3vw, 36px); */
+  padding: 24px;
+
 } 
+
+
 
 .grid{
   display:grid;
@@ -251,5 +255,9 @@ h2.hero-title{
 
 }
 
+
+ 
+ 
+ 
 
 
